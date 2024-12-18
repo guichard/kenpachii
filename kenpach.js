@@ -8,6 +8,7 @@ document.querySelector('.secret--button').addEventListener('click', function() {
 });
 
 
+
 document.getElementById('contactForm').addEventListener('submit', function(event) {
     event.preventDefault(); 
 
@@ -48,9 +49,9 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     }
 });
 
-// Fonction pour valider l'email
+
 function validateEmail(email) {
-    // Utilisation d'une expression régulière pour valider l'email
+    
     const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
     return emailRegex.test(email);
 }
@@ -63,13 +64,11 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     document.getElementById('contactForm').reset();
 });
 
-// Ajouter un écouteur d'événements sur chaque image de la galerie
+
 document.querySelectorAll('.gallery--img').forEach(function(image) {
     image.addEventListener('click', function() {
         var lightbox = document.getElementById('lightbox');
         var lightboxImage = document.querySelector('.lightbox__image');
-
-        // Afficher la lightbox et l'image sélectionnée
         lightbox.style.display = 'flex';
         lightboxImage.src = image.src;
     });
@@ -93,7 +92,7 @@ const timeDifference = currentDate - birthDate;
 const daysLived = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
 
 
-document.getElementById('life-span').textContent = `Kenpachi Zaraki a vie depuis ${daysLived} jours.`;
+document.getElementById('life-span').textContent = `Kenpachi Zaraki vie depuis ${daysLived} jours.`;
 
 
 
