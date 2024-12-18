@@ -2,7 +2,9 @@
     list-style: none;
     text-decoration: none;
     color: rgb(10, 10, 9);
-    font-family: fantasy;
+    font-family:  "Satisfy", serif;
+    font-size: larger;
+    font-style: oblique;
     
     
 }
@@ -21,20 +23,17 @@ body {
 }
 .body--header--nav {
     border: 10px solid transparent;
+    box-sizing: border-box;
   border-image: linear-gradient(to right, red, blue) 1;
-    border-block-start-style: ridge;
-    border-inline-start-style: ridge;
-    border-inline-end-style: groove;
-    border-block-end-style: groove;
-    width: 97%;
+    
     display: flex;
-    justify-content: space-evenly;
+    
 }
 
 .body--header--nav:hover {
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
+    width: 97%;
     margin: 5px;
     padding: 5px;
     border-radius: 30px;
@@ -102,6 +101,7 @@ body {
 .intro--h1 {
     display: flex;
     justify-content: center;
+    font-family: "Satisfy", serif;
 }
 
 .intro--h1--p {
@@ -124,29 +124,39 @@ body {
     border-inline-end-style: groove;
     border-block-end-style: groove;
     
+    
   
 }
 
-.presentation--h3 {
+.presentation--h2 {
     display: flex;
     justify-content: center;
-
+    font-family: "Satisfy", serif;
 }
 
 .presentation--p {
     margin: 20px;
 }
 
+.presentation--ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
 .gif-container {
     display: flex;
     justify-content: center;
     margin: 10px;
     padding: 10px;
+    
 }
 
 .gif-image {
     width: 100%; 
     border-radius: 15px;
+    height: 500px;
 }
 
 .citation {
@@ -203,6 +213,41 @@ body {
     
     transform: scale(2.1);
 }
+
+.lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.lightbox__image {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.lightbox__close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.lightbox__close:hover {
+    color: red;
+}
+
+
 
 .citation {
     display: flex;
@@ -310,8 +355,9 @@ body {
 }
 
 .contact-form__response {
+    font-family: cursive;
     text-align: center;
-    color: #28a745;
+    color: #6ee489;
     font-weight: bold;
     display: none;
 }
@@ -320,3 +366,5 @@ body {
     display: flex;
     justify-content: center;
 }
+
+
