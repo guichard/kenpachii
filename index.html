@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kenpachi Zaraki</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./kenpach.js">
+</head>
+<body class="body">
+
+<header class="body--header">
+    <nav class="body--header--nav">
+        <ul>
+            <li><a href="#intro">Intro</a></li>
+            <li><a href="#presentation">Presentation</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#citation">Citation</a></li>
+            <li><a href="#secret">secret</a></li>
+          </ul>
+    </nav>
+</header>
+    <div class="image">
+        <img src="./kenpachi.jpg" alt="zk">
+    </div>
+    <div class="intro" id="intro">      
+
+        <h1 class="intro--h1">Kenpachi Zaraki</h1>
+
+       <p class="intro--h1--p"><em>Cela fait tellement longtemps que j'ai oublié la douleur de ne pas avoir de nom . Tout le monde a un nom qui est habituellement utilisé par ses amis,  mais pas moi.</em></p>
+   </div>
+    <div class="gallery" id="gallery">
+        <img class="gallery--img" src="./kenpachi0.jpg" alt="00kenpachi">
+        <img class="gallery--img" src="./kenpachi2.jpg" alt="00kenpachi">
+        <img class="gallery--img" src="./kenpachi3.jpg" alt="00kenpachi">   
+        <img class="gallery--img" src="./kenpachi4.jpg" alt="00kenpachi">
+    </div>
+   
+    
+<main>
+    <div class="presentation" id="presentation">
+
+        <h3 class="presentation--h3">Presentation</h3> 
+        <p class="presentation--p">(更木 剣八, Zaraki Kenpachi) est le capitaine de la 11e Division et le onzième Shinigami à porter le titre de Kenpachi. <br> Réputé comme étant le plus redoutable guerrier du Gotei 13, il est initialement l'un des antagonistes principaux de la saison 2 avant de devenir l'un des plus proches alliés d'Ichigo.</p>
+    </div>
+
+    <div class="gif--container">
+        <img src="./bleach-kenpachi.gif" alt="Kenpachi Zaraki animation" class="gif-image">
+    </div>
+
+    <div class="citation" id="citation">
+        <h3 class="citation--h3">citation</h3>
+        <p class="citations--h3--p">Toi idiot! Il y a toujours des ombres partout où il y a de la lumière ! –Kenpachi Zaraki</p>
+    </div>
+   
+    <div class="gif--container">
+        <img src="./kenpachibankai.gif" alt="Kenpachi Zaraki animation" class="gif-image">
+    </div>
+
+        <div class="secret" id="secret">
+            <button class="secret--button">Kenpachi secret's</button>
+            <p class="secret--p" style="display: none;">Kenpachi le secret de son oeil droit le cache est une invention du Centre de Recherche et de Développement qui sert à absorber son Reiatsu et que s'il l'avait enlevé dès le départ, il aurait tué Ichigo.</p>
+        </div>
+        <div class="contact-form">
+            <h2 class="contact-form__title">Contactez-nous</h2>
+            <form id="contactForm" class="contact-form__form">
+                <input type="text" id="name" class="contact-form__input contact-form__input--name" placeholder="Votre nom" required>
+                <input type="email" id="email" class="contact-form__input contact-form__input--email" placeholder="Votre email" required>
+                <textarea id="message" class="contact-form__textarea" placeholder="Votre message" required></textarea>
+                <button type="submit" class="contact-form__button">Envoyer</button>
+            </form>
+            <p id="response" class="contact-form__response"></p>
+        </div>
+
+</main>
+<footer class="footer">
+    <p class="footer--p">&copy; bleach .Mentions légales  </p>
+</footer>
+
+<script src="./kenpach.js"></script>
+</body>
+</html>

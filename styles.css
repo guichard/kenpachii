@@ -1,0 +1,322 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(10, 10, 9);
+    font-family: fantasy;
+    
+    
+}
+body {
+    background-image: url('./cerisier.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.body {
+    position: relative;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.body--header--nav {
+    border: 10px solid transparent;
+  border-image: linear-gradient(to right, red, blue) 1;
+    border-block-start-style: ridge;
+    border-inline-start-style: ridge;
+    border-inline-end-style: groove;
+    border-block-end-style: groove;
+    width: 97%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.body--header--nav:hover {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 30px;
+    
+}
+
+.body--header--nav ul li {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+
+}
+.body--header--nav ul {
+    display: flex; 
+   
+    
+    
+}
+
+.body--header--nav a {
+    display: flex;
+    border: 5px rgb(255, 51, 0);
+    border-radius: 30px;
+    border-block-start-style: ridge;
+    border-inline-start-style: ridge;
+    border-inline-end-style: groove;
+    border-block-end-style: groove;
+    margin: 5px;
+    padding: 5px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+
+.body--header--nav a:hover {
+    background-color: rgb(240, 155, 155);
+    transform: scale(1.1);
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+
+}
+.image:hover {
+    transform: scale(1.1);
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 10px solid transparent;
+  border-image: linear-gradient(to right, red, blue) 1;
+    border-block-start-style: ridge;
+    border-inline-start-style: ridge;
+    border-inline-end-style: groove;
+    border-block-end-style: groove;
+    margin: 5px;
+    padding: 5px;
+    
+    
+}
+.intro--h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.intro--h1--p {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+    border: 10px solid transparent;
+  border-image: linear-gradient(to right, red, blue) 1;
+    border-block-start-style: ridge;
+    border-inline-start-style: ridge;
+    border-inline-end-style: groove;
+    border-block-end-style: groove;
+    
+  
+}
+
+.presentation--h3 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.presentation--p {
+    margin: 20px;
+}
+
+.gif-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.gif-image {
+    width: 100%; 
+    border-radius: 15px;
+}
+
+.citation {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+    
+    border: 10px solid transparent;
+  border-image: linear-gradient(to right, red, blue) 1;
+    border-block-start-style: ridge;
+    border-inline-start-style: ridge;
+    border-inline-end-style: groove;
+    border-block-end-style: groove;
+
+
+}
+
+.citation--h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.citations--h3--p {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    
+    border: 10px solid transparent;
+  border-image: linear-gradient(to right, red, blue) 1;
+    border-radius: 30px;
+    
+    
+}
+
+.gallery--img {
+    display: flex;
+    justify-content: center;
+    width: 23%;
+    height: 150px;
+    border: 1px solid rgb(214, 209, 209);
+    border-radius: 30px;
+    margin: 5px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    
+}
+
+.gallery--img:hover {
+    
+    transform: scale(2.1);
+}
+
+.citation {
+    display: flex;
+    justify-content: center;
+}
+.secret {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+.secret--h3 {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.secret--p {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.secret--button {
+    background-color: #30092c; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.secret--button:hover {
+    background-color: #36f315;
+}
+
+.secret--p {
+    display: none;
+    justify-content: center;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 10px rgb(38, 0, 255);
+    border-block-start-style: ridge;
+    border-inline-start-style: ridge;
+    border-inline-end-style: groove;
+    border-block-end-style: groove;
+    background-color: #fff;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    
+   
+}
+
+.contact-form__title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-form__input,
+.contact-form__textarea {
+    width: 97%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form__input--name {
+    background-color: #f9f9f9;
+}
+
+.contact-form__input--email {
+    background-color: #f9f9f9;
+}
+
+.contact-form__textarea {
+    resize: vertical;
+}
+
+.contact-form__button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form__button:hover {
+    background-color: #0056b3;
+}
+
+.contact-form__response {
+    text-align: center;
+    color: #28a745;
+    font-weight: bold;
+    display: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
