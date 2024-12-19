@@ -67,6 +67,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
 
 document.querySelectorAll('.gallery--img').forEach(function(image) {
     image.addEventListener('click', function() {
+        console.log('Image clicked!'); // Vérifiez dans la console du navigateur
         var lightbox = document.getElementById('lightbox');
         var lightboxImage = document.querySelector('.lightbox__image');
         lightbox.style.display = 'flex';
@@ -74,10 +75,11 @@ document.querySelectorAll('.gallery--img').forEach(function(image) {
     });
 });
 
-
 document.querySelector('.lightbox__close').addEventListener('click', function() {
+    console.log('Lightbox closed!'); // Vérifiez dans la console du navigateur
     document.getElementById('lightbox').style.display = 'none';
 });
+
 
 
 const birthDate = new Date('850-11-19'); 
