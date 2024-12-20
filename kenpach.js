@@ -60,7 +60,7 @@ function validateEmail(email) {
 document.getElementById('contactForm').addEventListener('submit', function(event) {
     event.preventDefault();
     document.getElementById('response').style.display = 'block';
-    document.getElementById('response').textContent = 'pigeon Message envoyé!';
+    document.getElementById('response').textContent = 'pigeon envoyé!';
     document.getElementById('contactForm').reset();
 });
 
