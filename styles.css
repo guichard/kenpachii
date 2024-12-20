@@ -226,7 +226,7 @@ body {
     border-radius: 30px;
     margin: 10px;
     transition: transform 0.3s ease, filter 0.3s ease;
-    
+    cursor: pointer;
 }
 
 .gallery--img:hover {
